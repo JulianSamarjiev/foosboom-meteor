@@ -1,0 +1,179 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'mongo-hacker' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'mongo-hacker', null ]
+7 verbose cache add spec mongo-hacker
+8 silly cache add parsed spec { raw: 'mongo-hacker',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'mongo-hacker',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed mongo-hacker@*
+10 verbose addNamed "*" is a valid semver range for mongo-hacker
+11 silly addNameRange { name: 'mongo-hacker', range: '*', hasData: false }
+12 silly mapToRegistry name mongo-hacker
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/mongo-hacker
+16 verbose addNameRange registry:https://registry.npmjs.org/mongo-hacker not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/mongo-hacker
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 7:15:42 PM
+20 verbose request id 44255e6a75fdffaa
+21 verbose etag "5GCI14ZGN6VMCLYPDQTYM1IM4"
+22 http request GET https://registry.npmjs.org/mongo-hacker
+23 http 304 https://registry.npmjs.org/mongo-hacker
+24 silly get cb [ 304,
+24 silly get   { date: 'Wed, 08 Jul 2015 17:15:43 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     'cache-control': 'max-age=60',
+24 silly get     etag: '"5GCI14ZGN6VMCLYPDQTYM1IM4"',
+24 silly get     age: '14',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-ams4122-AMS',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1436375743.094469,VS0,VE0',
+24 silly get     vary: 'Accept' } ]
+25 verbose etag https://registry.npmjs.org/mongo-hacker from cache
+26 verbose get saving mongo-hacker to /Users/JulianWork/.npm/registry.npmjs.org/mongo-hacker/.cache.json
+27 silly addNameRange number 2 { name: 'mongo-hacker', range: '*', hasData: true }
+28 silly addNameRange versions [ 'mongo-hacker', [ '0.0.3', '0.0.4', '0.0.5', '0.0.8' ] ]
+29 silly addNamed mongo-hacker@0.0.8
+30 verbose addNamed "0.0.8" is a plain semver version for mongo-hacker
+31 silly cache afterAdd mongo-hacker@0.0.8
+32 verbose afterAdd /Users/JulianWork/.npm/mongo-hacker/0.0.8/package/package.json not in flight; writing
+33 verbose afterAdd /Users/JulianWork/.npm/mongo-hacker/0.0.8/package/package.json written
+34 silly install resolved [ { name: 'mongo-hacker',
+34 silly install resolved     version: '0.0.8',
+34 silly install resolved     description: 'MongoDB Shell Enhancements for Hackers',
+34 silly install resolved     scripts:
+34 silly install resolved      { test: 'echo "Error: no test specified" && exit 1',
+34 silly install resolved        install: 'make install',
+34 silly install resolved        update: 'make install',
+34 silly install resolved        postuninstall: 'make uninstall' },
+34 silly install resolved     preferGlobal: true,
+34 silly install resolved     repository:
+34 silly install resolved      { type: 'git',
+34 silly install resolved        url: 'git+ssh://git@github.com/TylerBrock/mongo-hacker.git' },
+34 silly install resolved     keywords: [ 'mongodb', 'shell', 'hacks', 'tweaks' ],
+34 silly install resolved     author: { name: 'Tyler Brock', email: 'tyler.brock@gmail.com' },
+34 silly install resolved     homepage: 'http://tylerbrock.github.io/mongo-hacker/',
+34 silly install resolved     license: 'MIT',
+34 silly install resolved     bugs: { url: 'https://github.com/TylerBrock/mongo-hacker/issues' },
+34 silly install resolved     gitHead: '78f9412df818daff3f82ed6c5f25ac60f35e4ba8',
+34 silly install resolved     _id: 'mongo-hacker@0.0.8',
+34 silly install resolved     _shasum: 'affb7e7577b9e9b234432a868ba6d93e6d3411e5',
+34 silly install resolved     _from: 'mongo-hacker@*',
+34 silly install resolved     _npmVersion: '2.7.5',
+34 silly install resolved     _nodeVersion: '0.12.2',
+34 silly install resolved     _npmUser: { name: 'tylerbrock', email: 'tyler.brock@gmail.com' },
+34 silly install resolved     maintainers: [ [Object] ],
+34 silly install resolved     dist:
+34 silly install resolved      { shasum: 'affb7e7577b9e9b234432a868ba6d93e6d3411e5',
+34 silly install resolved        tarball: 'http://registry.npmjs.org/mongo-hacker/-/mongo-hacker-0.0.8.tgz' },
+34 silly install resolved     directories: {},
+34 silly install resolved     _resolved: 'https://registry.npmjs.org/mongo-hacker/-/mongo-hacker-0.0.8.tgz',
+34 silly install resolved     readme: 'ERROR: No README data found!' } ]
+35 info install mongo-hacker@0.0.8 into /usr/local/lib
+36 info installOne mongo-hacker@0.0.8
+37 verbose installOne of mongo-hacker to /usr/local/lib not in flight; installing
+38 verbose lock using /Users/JulianWork/.npm/_locks/mongo-hacker-ad7f305baebeac6b.lock for /usr/local/lib/node_modules/mongo-hacker
+39 silly install write writing mongo-hacker 0.0.8 to /usr/local/lib/node_modules/mongo-hacker
+40 verbose unbuild lib/node_modules/mongo-hacker
+41 silly gentlyRm /usr/local/lib/node_modules/mongo-hacker is being purged from base /usr/local
+42 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/mongo-hacker
+43 verbose tar unpack /Users/JulianWork/.npm/mongo-hacker/0.0.8/package.tgz
+44 verbose tar unpacking to /usr/local/lib/node_modules/mongo-hacker
+45 silly gentlyRm /usr/local/lib/node_modules/mongo-hacker is being purged
+46 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/mongo-hacker
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 silly gunzTarPerm extractEntry package.json
+49 silly gunzTarPerm extractEntry .npmignore
+50 silly gunzTarPerm extractEntry README.md
+51 silly gunzTarPerm extractEntry LICENSE
+52 silly gunzTarPerm extractEntry base.js
+53 silly gunzTarPerm extractEntry config.js
+54 silly gunzTarPerm extractEntry Makefile
+55 silly gunzTarPerm extractEntry hacks/aggregation.js
+56 silly gunzTarPerm extractEntry hacks/color.js
+57 silly gunzTarPerm extractEntry hacks/common.js
+58 silly gunzTarPerm extractEntry hacks/count.js
+59 silly gunzTarPerm extractEntry hacks/find_and_modify.js
+60 silly gunzTarPerm extractEntry hacks/cmd_search.js
+61 silly gunzTarPerm extractEntry hacks/index_paranoia.js
+62 silly gunzTarPerm extractEntry hacks/old_aggregation.js
+63 silly gunzTarPerm extractEntry hacks/prompt.js
+64 silly gunzTarPerm extractEntry hacks/sh_status.js
+65 silly gunzTarPerm extractEntry hacks/show.js
+66 silly gunzTarPerm extractEntry hacks/auto_complete.js
+67 silly gunzTarPerm extractEntry hacks/uuid.js
+68 silly gunzTarPerm extractEntry hacks/api.js
+69 silly gunzTarPerm extractEntry hacks/verbose.js
+70 silly gunzTarPerm extractEntry hacks/helpers.js
+71 verbose write writing to /usr/local/lib/node_modules/mongo-hacker/package.json
+72 info preinstall mongo-hacker@0.0.8
+73 verbose readDependencies loading dependencies from /usr/local/lib/node_modules/mongo-hacker/package.json
+74 verbose readDependencies loading dependencies from /usr/local/lib/node_modules/mongo-hacker/package.json
+75 silly install resolved []
+76 verbose about to build /usr/local/lib/node_modules/mongo-hacker
+77 info build /usr/local/lib/node_modules/mongo-hacker
+78 info linkStuff mongo-hacker@0.0.8
+79 silly linkStuff mongo-hacker@0.0.8 has /usr/local/lib/node_modules as its parent node_modules
+80 silly linkStuff mongo-hacker@0.0.8 is part of a global install
+81 silly linkStuff mongo-hacker@0.0.8 is installed into a global node_modules
+82 silly linkStuff mongo-hacker@0.0.8 is installed into the top-level global node_modules
+83 verbose linkBins mongo-hacker@0.0.8
+84 verbose linkMans mongo-hacker@0.0.8
+85 verbose rebuildBundles mongo-hacker@0.0.8
+86 info install mongo-hacker@0.0.8
+87 verbose unsafe-perm in lifecycle false
+88 info mongo-hacker@0.0.8 Failed to exec install script
+89 verbose unlock done using /Users/JulianWork/.npm/_locks/mongo-hacker-ad7f305baebeac6b.lock for /usr/local/lib/node_modules/mongo-hacker
+90 verbose stack Error: mongo-hacker@0.0.8 install: `make install`
+90 verbose stack Exit status 2
+90 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+90 verbose stack     at EventEmitter.emit (events.js:110:17)
+90 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+90 verbose stack     at ChildProcess.emit (events.js:110:17)
+90 verbose stack     at maybeClose (child_process.js:1015:16)
+90 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+91 verbose pkgid mongo-hacker@0.0.8
+92 verbose cwd /Users/JulianWork/Documents/Julian/foosboom-meteor
+93 error Darwin 14.4.0
+94 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "mongo-hacker"
+95 error node v0.12.4
+96 error npm  v2.10.1
+97 error code ELIFECYCLE
+98 error mongo-hacker@0.0.8 install: `make install`
+98 error Exit status 2
+99 error Failed at the mongo-hacker@0.0.8 install script 'make install'.
+99 error This is most likely a problem with the mongo-hacker package,
+99 error not with npm itself.
+99 error Tell the author that this fails on your system:
+99 error     make install
+99 error You can get their info via:
+99 error     npm owner ls mongo-hacker
+99 error There is likely additional logging output above.
+100 verbose exit [ 1, true ]
+101 verbose unbuild lib/node_modules/mongo-hacker
+102 info preuninstall mongo-hacker@0.0.8
+103 info uninstall mongo-hacker@0.0.8
+104 verbose unbuild rmStuff mongo-hacker@0.0.8 from /usr/local/lib/node_modules
+105 info postuninstall mongo-hacker@0.0.8
+106 verbose unsafe-perm in lifecycle false
+107 info mongo-hacker@0.0.8 Failed to exec postuninstall script
+108 warn continuing anyway mongo-hacker@0.0.8 postuninstall: `make uninstall`
+108 warn continuing anyway Exit status 2
+109 silly gentlyRm /usr/local/lib/node_modules/mongo-hacker is being purged from base /usr/local
+110 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/mongo-hacker
+111 silly vacuum-fs purging /usr/local/lib/node_modules/mongo-hacker
+112 silly vacuum-fs quitting because other entries in /usr/local/lib/node_modules
